@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        caption {
+            color: red;
+        }
+
+        button {
+            background-color: green;
+            border: none;
+            color: white;
+            padding: 20xpx;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px, 2px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: green;
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+    <table border="1">
+        <caption>Student Detail Form</caption>
+        <form action="#" <tr>
+            <th><label for="Roll No.:"></label>Roll No. :</th>
+            <td><input type="Roll No.:" name="Roll No.:" id="Roll No.:" placeholder="Roll No."></td>
+            </tr>
+            <tr>
+                <th> <label for="Name"></label>Name:</th>
+                <td><input type="Name" name="Name" id="Name" placeholder="Enter Your Name :"></td>
+            </tr>
+
+            <tr>
+                <th> <label for="Address"></label>Address :</th>
+                <td><textarea name="Text" name="Address" id="Address" placeholder="Address" wrape="Physical" rows="5"
+                        cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="date of birth">Date Of Birth :</label></th>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <th><label for="gender">Gender :</label></th>
+                <td><input type="radio" name="gender" id="male">MALE
+                    <input type="radio" name="gender" id="female">FEMALE
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="Hobby">Hobby :</label>
+                </th>
+                <td><input type="checkbox" name="CRICKET" id="CRICKET">Cricket <br>
+                    <input type="checkbox" name="CRICKET" id="CRICKET">Reading <br>
+                    <input type="checkbox" name="CRICKET" id="CRICKET">Travelling <br>
+                    <input type="checkbox" name="CRICKET" id="CRICKET">Dancing <br>
+                    <input type="checkbox" name="CRICKET" id="CRICKET">Singing <br>
+
+
+                </td>
+
+            </tr>
+            <tr>
+                <th><label for="username">Username :</label></th>
+                <td><input type="Username" name="username" id="number" placeholder="Enter Username"></td>
+            </tr>
+
+            <tr>
+                <th><label for="Password :"></label>Password :</th>
+                <td><input type="password" name="password" id="password" placeholder="Enter Password"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><input type="button" value="button" id="reset">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+    </table>
+    <br><br>
+
+    <table>
+        <form action="#">
+
+            <tr>
+                <td><label for="Email">Email</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" id="email" placeholder="Example@gmail.com"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Password">Password</label></td>
+            </tr>
+            <tr>
+                <td><input type="password" name="password" id="password" placeholder="Enter Your Password"></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="rememberme" id="rememberme">Remember Me<br></td>
+                <td><span style="color: red;">Forget Password ?</span></td>
+            </tr>
+            <tr>
+
+                <td colspan="2" align="center"><input type="button" value="signin" id="signin" style="color: blue;">
+
+            </tr>
+
+
+        </form>
+
+    </table>
+    <br><br>
+
+    <table>
+        <form action="#">
+            <fieldset>
+                <legend>User Personal Information</legend>
+                <label for="name">Enter Your Full Name</label><br>
+                <input type="text" name="name" id="name" value="" placeholder="Enter Your Name"><br><br>
+
+                <label for="name">Enter Your Email</label><br>
+                <input type="text" name="email" id="name" value="" placeholder="Example@gmail.com"><br><br>
+
+                <label for="name">Enter Your Password</label><br>
+                <input type="password" name="password" id="password" value="" min="6"
+                    placeholder="Enter Your password"><br><br>
+
+                <label for="name">Conform Your Password</label><br>
+                <input type="password" name="password" id="password" value="" placeholder="Enter Your Name"><br><br>
+
+                <label for="name">Enter Your Gender</label><br>
+                <input type="radio" name="gender" id="male">MALE
+                <input type="radio" name="gender" id="female">FEMALE
+                <input type="radio" name="gender" id="other">OTHER
+                <br><br>
+
+                <label for="birthdate">Enter Your Date Of Birth</label><br>
+                <input type="date" name="birthdate" id="bithdate"><br><br>
+
+                <label for="address">Enter Your Address</label><br>
+                <textarea name="Text" name="Address" id="Address" placeholder="Address" wrape="Physical" rows="5"
+                    cols="25"></textarea><br><br>
+
+
+                <input type="submit" value="Submit">
+
+        </form>
+        </fieldset>
+
+
+    </table>
+    <br><br><br><br>
+    <h1>Registration Form</h1><br>
+    <table>
+
+        <form action="#">
+
+            <label for="first name">First Name:</label><br>
+            <input type="name" name="firstname" id="firstname"><br><br>
+
+            <label for="last name">Last Name:</label><br>
+            <input type="name" name="lastname" id="lastname"><br><br>
+
+            <label for="email ">Email:</label><br>
+            <input type="" name="email" id="email"><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password"><br><br>
+
+            <label for="Re-type Password">Re-type Password:</label><br>
+            <input type="password" name="password" id="password"><br><br>
+
+            <label for="Contact">Contact:</label><br>
+            <input type="contact" name="contact" id="contact"><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+            <button type="button" align="center">Submit</button>
+        </form>
+    </table>
+    <br><br>
+
+    <table>
+        <H3>Application Form</H3>
+    
+        <form action="">
+            
+            
+               
+                <label for="first name">First Name:</label>
+                    <input type="First Name:" name="firstname" id="firstname" value="">
+                
+                <label for="last name">Last Name:</label>
+                    <input type="last Name:" name="lastname" id="lastname" value=""><br><br>
+                
+           
+            <label for="Date of birth">Date Of Birth:</label>
+                <input type="date" name="date" id="date" value="">
+            
+            <label for="age">Age:</label>
+                <input type="age" name="age" id="age" value=""><br><br>
+
+
+            <label for="Gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>    
+
+            <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" value="" placeholder="Enter Email Address"><br><br>
+        
+
+            <label for="position">Positions Available:</label>
+               <input type="radio" name="Developer" id="Junior Developer">Junior Developer
+               <input type="radio" name="Developer" id="JMid-Level Developer">Mid-Level Developer
+               <input type="radio" name="Developer" id="Senior Developer">Senior Developer <br><br>
+
+
+               <label for="Programming Language">Programming Language:</label>
+               <input type="checkbox" name="Java" id="Java">Junior Developer
+               <input type="checkbox" name="Javascript" id="Javascript">Mid-Level Developer
+               <input type="checkbox" name="Python" id="Python">Python <br><br>
+
+             <label for="password">Password:</label>
+                <input type="password" name="password" id="password" value="" >
+
+             <label for="password"> Confirm Password:</label>
+                <input type="password" name="password" id="password" value="" ><br><br>
+                
+                <input type="button" value="Submit">&nbsp;
+                <input type="button" value="Reset">
+                
+    </form>
+</table>
+    
+        </form>
+    </table>
+    <br><br>
+
+
+    <form action="#">
+
+       <h3>Payment Form</h3>
+       <hr>
+       <label for="name">Name:</label>
+       <input type="name" id="name" name="name">
+
+       <fieldset>
+        <legend>* Gender</legend>
+        <input type="radio" name="gender" id="male"> 
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female"> 
+        <label for="female">Female</label>
+
+       </fieldset>
+       <label for="">Address</label>
+       <textarea name="" id="" cols="30" rows="10"></textarea>
+       <br><br>
+
+       <label for="email">Email </label>
+      <input type="email" name="email" id="email">
+      
+<br><br>
+
+<label for="pincode">Pincode:</label>
+<input type="number" name="number" id="number">
+<br>
+<hr>
+
+<h4>Payment Information</h4>
+ <label for="cardtype">Card Type:</label>
+ <select name="cardtype" id="cardtype">
+    <option value="">---Select Card---</option>
+    <option value="">Master Card</option>
+    <option value="">Debit Card</option>
+    <option value="">Credit Card</option></select>
+    <br><br>
+
+  <label for="cardnumber">Card Number :</label> 
+  <input type="cardnumber" name="cardnumber" id="cardnumber"> <br><br>
+
+
+ <label for="date">Expiration Date:</label>
+ <input type="date" name="date" id="date"><br><br>
+
+
+ <label for="cvv">CVV:</label>
+ <input type="cvv" name="cvv" id="cvv"><br><br>                          
+<a href="form2.html">
+
+ <input type="button" value="Pay Now" id="button" href="form2.html">
+ </a>
+    </form>
+</body>
+
+
+
+
+</html>
